@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,16 +8,23 @@ namespace Bateria
 {
     internal class Celula
     {
-        private int carga { get;  set; }
+        private int carga { get; set; }
         private static int cargaBateria {get; set;}
-
         public Celula()
         {
             this.carga = 25;
             cargaBateria += 25;
         }
 
+        public int getCarga()
+        {
+            return carga;
+        }
 
+        public int getCargaBateira()
+        {
+            return cargaBateria;
+        }
 
         public void setCargabateria(int cargabateria)
         {
