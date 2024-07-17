@@ -1,4 +1,4 @@
-﻿namespace Bateria
+namespace Bateria
 {
     internal class Program
     {
@@ -14,18 +14,18 @@
 
             do
             {
- 
+
                 int bateria = ale.Next(4);
                 int qual = ale.Next(2);
 
-                if (qual == 0 && cel[bateria].getCargaBateira() > 0){cel[bateria].consumir(); }
-                else if(cel[bateria].getCargaBateira() <= 100){ cel[(bateria)].carregar();}
+                if (qual == 0 && cel[bateria].getCargaBateira() > 0) { cel[bateria].consumir(); }
+                else if (cel[bateria].getCargaBateira() <= 100) { cel[(bateria)].carregar(); }
 
-                Console.WriteLine("Carga da bateria 1:" + cel[0].getCarga());
-                Console.WriteLine("Carga da bateria 2:" + cel[1].getCarga());
-                Console.WriteLine("Carga da bateria 3:" + cel[2].getCarga());
-                Console.WriteLine("Carga da bateria 4:" + cel[3].getCarga());
-                int total = cel[0].getCarga() + cel[1].getCarga() + cel[2].getCarga() + cel[3].getCarga();
+                Console.WriteLine("Carga da bateria 1:" + cel[0].carga);
+                Console.WriteLine("Carga da bateria 2:" + cel[1].carga);
+                Console.WriteLine("Carga da bateria 3:" + cel[2].carga);
+                Console.WriteLine("Carga da bateria 4:" + cel[3].carga);
+                int total = cel[0].carga + cel[1].carga + cel[2].carga + cel[3].carga;
                 cel[1].setCargabateria(total);
 
                 Console.WriteLine("Carga total:" + cel[0].getCargaBateira());
@@ -35,7 +35,7 @@
                 Console.Clear();
 
             } while (a.Key != ConsoleKey.F);
-            
+
 
         }
     }
