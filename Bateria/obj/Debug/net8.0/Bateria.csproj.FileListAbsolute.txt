@@ -1,0 +1,14 @@
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\bin\Debug\net8.0\Bateria.exe
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\bin\Debug\net8.0\Bateria.deps.json
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\bin\Debug\net8.0\Bateria.runtimeconfig.json
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\bin\Debug\net8.0\Bateria.dll
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\bin\Debug\net8.0\Bateria.pdb
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.GeneratedMSBuildEditorConfig.editorconfig
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.AssemblyInfoInputs.cache
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.AssemblyInfo.cs
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.csproj.CoreCompileInputs.cache
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.dll
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\refint\Bateria.dll
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.pdb
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\Bateria.genruntimeconfig.cache
+E:\2024\ws-C#\06- 2024\2806\Bateria\Bateria\obj\Debug\net8.0\ref\Bateria.dll
