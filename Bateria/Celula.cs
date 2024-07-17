@@ -8,17 +8,12 @@ namespace Bateria
 {
     internal class Celula
     {
-        private int carga { get; set; }
-        private static int cargaBateria {get; set;}
+        public int carga { get; private set; }
+        private static int cargaBateria;
         public Celula()
         {
-            this.carga = 25;
+            carga = 25;
             cargaBateria += 25;
-        }
-
-        public int getCarga()
-        {
-            return carga;
         }
 
         public int getCargaBateira()
@@ -28,19 +23,19 @@ namespace Bateria
 
         public void setCargabateria(int cargabateria)
         {
-           cargaBateria = cargabateria;
+            cargaBateria = cargabateria;
         }
 
         public void consumir()
         {
-            if(cargaBateria > 0 && this.carga > 0) { this.carga -= 5; }
+            if (cargaBateria > 0 && this.carga > 0) { this.carga -= 5; }
         }
 
 
         public void carregar()
         {
-            if(cargaBateria < 100 && this.carga < 100)
-            this.carga += 5;
+            if (cargaBateria < 100 && this.carga < 100)
+                this.carga += 5;
         }
 
     }
